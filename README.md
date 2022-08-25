@@ -2,7 +2,7 @@
 
 ## Methodology
 
-The aim of this project is to predict space groups structure for ternary compounds using their respective constituent elements' intrinsic properties.
+The aim of this project is to predict space groups structure for ternary compounds using their respective constituent elements' intrinsic properties. The material space is restricted for Trenary compounds and to elements from 1 to 85 in the periodic table except Noble gases, a.k.a. 18th column.
 
 ## Data Dictionary
 
@@ -24,6 +24,6 @@ The data are retrieved from [NOMAD Repository](https://nomad-lab.eu/) and they a
 | C IonizationPot1st | First ionization potential for 3rd element            |
 | C IonicRadius      | Ionic radius of the 3rd element                       |
 | Oxidation 1        | Oxidation number of atom A                            |
-| Oxidation 2        | Oxidation number of atom A                            |
-| Oxidation 3        | Oxidation number of atom A                            |
+| Oxidation 2        | Oxidation number of atom B                            |
+| Oxidation 3        | Oxidation number of atom C                            |
 | SG \#              | Number of the space group (Target)                    |
